@@ -1,6 +1,7 @@
 body {
   font-family: "Finlandica", sans-serif;
   margin: 0;
+  background-color: #f5eeee;
 }
 .header-part {
   display: flex;
@@ -24,6 +25,7 @@ body {
   background-image: url(images/shapes/Frame\ 57.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  padding-bottom: 90px;
 }
 .about-me {
   width: 50%;
@@ -40,8 +42,50 @@ body {
   text-align: left;
   padding-right: 60px;
 }
+.recipie {
+  text-align: center;
+}
+.My-recipies {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding-bottom: 90px;
+}
+.recipieimg {
+  width: 50%;
+  border: 30px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+.recipieimg img {
+  width: 100%;
+  border-radius: 20px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 90px;
+  padding: 50px;
+  margin-right: 90px;
+  border-radius: 20px;
+  background-color: white;
+}
+.third-width {
+  width: 33%;
+  text-align: center;
+  margin: 0;
+}
 h1 {
   font-size: 70px;
+}
+h2 {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
 }
 h3 {
   font-size: 40px;
@@ -64,4 +108,10 @@ p {
   padding: 20px 40px;
   border-radius: 20px;
   font-size: 20px;
+}
+.footer {
+  background-color: black;
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 100px;
 }
